@@ -9,7 +9,7 @@ This repo contains all the resources needed to maximize the performance of an AS
 ## 📁 Contents
 
 ### Ghelper
-Contains [G-Helper](https://github.com/seerge/g-helper) - an open-source alternative to Armoury Crate for ASUS laptops.
+Contains [G-Helper](https://github.com/seerge/g-helper) - an open-source alternative to Armoury Crate or ProArt Creator Hub for ASUS laptops.
 
 | File | Description |
 |------|-------------|
@@ -45,7 +45,7 @@ Contains NVIDIA vBIOS files and flashing utilities for increasing GPU TDP.
 
 ### vBIOS Flash (Advanced Users Only)
 
-> ⚠️ **Warning:** Flashing a modified vBIOS can void your warranty and potentially brick your GPU. Although the risk is low and you can easily reflash the back up bio if something happens. Proceed at your own risk. Always create a backup first!
+> ⚠️ **Warning:** Flashing a modified vBIOS can void your warranty and potentially brick your GPU. Although the risk is low and you can easily reflash the back up bio if something happens, proceed at your own risk!
 
 1. Open Command Prompt as Administrator
 2. Navigate to the `NVflash` folder:
