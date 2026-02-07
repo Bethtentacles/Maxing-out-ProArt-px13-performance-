@@ -46,7 +46,7 @@
   "cpu_temp_2": 75,
   "cpu_uv_2": -40,
   "igpu_uv_2": 0,
-  "max_gpu_core": 400,
+  "max_gpu_core": 500,
   "max_gpu_memory": 600,
   "min_gpu_core": -500,
   "min_gpu_memory": -1500,
