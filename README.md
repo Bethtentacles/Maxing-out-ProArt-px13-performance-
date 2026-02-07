@@ -11,6 +11,8 @@ This repo contains all the resources needed to maximize the performance of an AS
 ### Ghelper
 Contains [G-Helper](https://github.com/seerge/g-helper) - an open-source alternative to Armoury Crate or ProArt Creator Hub for ASUS laptops.
 
+If you run in to sability issues, its most likelt due to these settings, Decrease the overclock settings if games crash and if system crashes decrease the undervolt for the cpu (-40 to -30)
+
 | File | Description |
 |------|-------------|
 | `GHelper.exe` | G-Helper application |
