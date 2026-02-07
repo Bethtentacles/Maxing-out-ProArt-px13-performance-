@@ -54,7 +54,7 @@ Contains NVIDIA vBIOS files and flashing utilities for increasing GPU TDP.
    ```
    For example, if you downloaded the repo to your Downloads folder:
    ```
-   cd "C:\Users\YourUsername\Documents\PX13\NVflash"
+   cd "C:\Users\YourUsername\Downloads"
    ```
 3. Flash the new vBIOS:
    ```
