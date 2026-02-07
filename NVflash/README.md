@@ -33,11 +33,11 @@ NVIDIA vBIOS files and flashing utilities for increasing GPU TDP.
    ```
    nvflash64 --protectoff
    ```
-        (for RTX4060)
+   For RTX4060
    ```
    nvflash64 -6 4060120w.rom
    ```
-        (for RTX4070)
+   For RTX4070
    ```
    nvflash64 -6 4070120w.rom
    ```
