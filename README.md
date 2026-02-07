@@ -30,24 +30,32 @@ Contains NVIDIA vBIOS files and flashing utilities for increasing GPU TDP.
 | `4060120w.rom` | RTX 4060 vBIOS with 120W TDP |
 | `4070120w.rom` | RTX 4070 vBIOS with 120W TDP |
 | `backup4060.rom` | Backup of original 4060 vBIOS |
-| `nvflash.exe` | NVFlash utility (32-bit) |
-| `nvflash64.exe` | NVFlash utility (64-bit) |
+| `nvflash.exe`   | NVFlash utility (32-bit) |
+| `nvflash64.exe` | NVFlash utility (64-bit) | (this is the one you're using)
 
 ---
 
 ## 🚀 Quick Start
 
 ### G-Helper Setup
-1. Copy the `Ghelper` folder to your desired location
-2. Run `GHelper.exe`
-3. The included `config.json` will automatically apply optimized settings
+1. Copy the `Ghelper` folder to your desired location (i.e programs folder)
+2. Copy the `config.json` file in to this location "C:\Users\[USER NAME]\AppData\Roaming\GHelper" (user name is what your log in name is...)
+3. Run `GHelper.exe`
+4. The included `config.json` will automatically apply optimized settings
 
 ### vBIOS Flash (Advanced Users Only)
 
-> ⚠️ **Warning:** Flashing a modified vBIOS can void your warranty and potentially brick your GPU. Proceed at your own risk. Always create a backup first!
+> ⚠️ **Warning:** Flashing a modified vBIOS can void your warranty and potentially brick your GPU. Although the risk is low and you can easily reflash the back up bio if something happens. Proceed at your own risk. Always create a backup first!
 
 1. Open Command Prompt as Administrator
-2. Navigate to the `NVflash` folder
+2. Navigate to the `NVflash` folder:
+   ```
+   cd "C:\path\to\NVflash"
+   ```
+   For example, if you downloaded the repo to your Downloads folder:
+   ```
+   cd "C:\Users\YourUsername\Downloads\XP13 increase TDP\NVflash"
+   ```
 3. Create a backup of your current vBIOS:
    ```
    nvflash64 --save backup.rom
@@ -68,14 +76,14 @@ The G-Helper config includes three pre-configured profiles:
 | Profile | Total TDP | CPU Limit | Use Case |
 |---------|-----------|-----------|----------|
 | Silent | 5W | 5W | Battery saving, quiet operation |
-| Balanced | 75W | 48W | Everyday use |
-| Turbo | 50W | 80W | Maximum performance |
+| Balanced | 75W | 50W | Everyday use |
+| Turbo | 140W | 75W | Maximum performance |
 
 ---
 
 ## 📝 Notes
 
-- Make sure to disable Armoury Crate before using G-Helper
+- Make sure to uninstal Armoury Crate and ProArt Creator Hub before using G-Helper
 - The vBIOS files are specifically for the ASUS ProArt PX13 - do not use on other devices
 - Always keep a backup of your original vBIOS
 
