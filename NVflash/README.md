@@ -32,9 +32,13 @@ NVIDIA vBIOS files and flashing utilities for increasing GPU TDP.
 3. Flash the new vBIOS:
    ```
    nvflash64 --protectoff
+   ```
         (for RTX4060)
+   ```
    nvflash64 -6 4060120w.rom
+   ```
         (for RTX4070)
+   ```
    nvflash64 -6 4070120w.rom
    ```
 4. Restart your computer
