@@ -54,18 +54,21 @@ Contains NVIDIA vBIOS files and flashing utilities for increasing GPU TDP.
    ```
    For example, if you downloaded the repo to your Downloads folder:
    ```
-   cd "C:\Users\YourUsername\Downloads\XP13 increase TDP\NVflash"
+   cd "C:\Users\YourUsername\Documents\PX13\NVflash"
    ```
-3. Create a backup of your current vBIOS:
-   ```
-   nvflash64 --save backup.rom
-   ```
-4. Flash the new vBIOS:
+3. Flash the new vBIOS:
    ```
    nvflash64 --protectoff
+   ```
+   **For RTX4060:**
+   ```
    nvflash64 -6 4060120w.rom
    ```
-5. Restart your computer
+   **For RTX4070:**
+   ```
+   nvflash64 -6 4070120w.rom
+   ```
+4. Restart your computer
 
 ---
 
