@@ -42,9 +42,10 @@ Contains NVIDIA vBIOS files and flashing utilities for increasing GPU TDP.
 
 ### G-Helper Setup
 1. Copy the `Ghelper` folder to your desired location (i.e programs folder)
-2. Copy the `config.json` file in to this location "C:\Users\[USER NAME]\AppData\Roaming\GHelper" (user name is what your log in name is...)
-3. Run `GHelper.exe`
-4. The included `config.json` will automatically apply optimized settings
+2. Run `Ghelper` Then close it, Make sure it's comepletely closed.
+4. Copy the `config.json` file in to this location "C:\Users\ [USER NAME]\AppData\Roaming\GHelper" (user name is what your log in name is...)
+5. Run `GHelper.exe`
+6. The included `config.json` will automatically apply optimized settings
 
 ### vBIOS Flash (Advanced Users Only)
 
