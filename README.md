@@ -32,6 +32,7 @@ Contains NVIDIA vBIOS files and flashing utilities for increasing GPU TDP.
 | `4060120w.rom` | RTX 4060 vBIOS with 120W TDP |
 | `4070120w.rom` | RTX 4070 vBIOS with 120W TDP |
 | `backup4060.rom` | Backup of original 4060 vBIOS |
+| `backup4070.rom` | Backup of original 4070 vBIOS |
 | `nvflash.exe`   | NVFlash utility (32-bit) |
 | `nvflash64.exe` | NVFlash utility (64-bit) | (this is the one you're using)
 
